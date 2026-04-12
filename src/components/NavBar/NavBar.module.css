@@ -1,0 +1,123 @@
+.navGroup {
+    width: 100%;
+    padding: 16px 50px 0px 60px;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+    background-color: var(--BackgroundColor);
+}
+
+.banner {
+    width: 100%;
+    background-image: url('/assets/imgs/banner-shapes.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    background-color: var(--iconBackground);
+    border: 3px solid var(--GrayColor);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 0px;
+    gap:12px;
+    margin-bottom: 14px;
+}
+
+.navBar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 3px solid var(--GrayColor);
+    border-radius: 8px;
+    background-color: var(--BackgroundColor);
+}
+
+.logo {
+    border-right: 2px solid #262626;
+    padding: 12px 20px;
+    background-color: var(--mainColor);
+}
+
+.logoImg {
+    max-width: 158px;
+    height: 34px;
+}
+
+
+.navList {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.item {
+    padding: 21px 2vw;
+    border-left: 3px solid var(--GrayColor);
+}
+.item:last-child{
+    background-color: var(--mainColor);
+}
+.item:first-child{
+    background-color: var(--questionsBG);
+}
+
+.bars {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 24px;
+    padding: 17px 30px;
+    border-left: 3px solid var(--GrayColor);
+}
+
+.navMenu{
+    display: none;
+    list-style: none;
+}
+
+
+@media screen and (max-width : 992px) {
+    .navGroup {
+        padding: 40px 16px 0px;
+    }
+    .banner {
+    background-image: url('/assets/imgs/banner-mobile.png');
+    }
+
+    .navList {
+        display: none;
+    }
+
+    .bars {
+        display: block;
+    }
+    .navMenu{
+    position: fixed;
+    top: 22vh;
+    right: 10%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    list-style: none;
+    border: 3px solid var(--GrayColor);
+    border-radius: 8px;
+    padding: 20px;
+    transform: translateX(150%);
+    transition: all 1s;
+    background-color: var(--BackgroundColor);
+    z-index: 2;
+}
+.showMenu{
+    transform: translateX(0);
+}
+
+    .item{
+        border-left: none;
+        padding: 24px 20px;
+        border-bottom: 3px solid var(--GrayColor);
+    }
+}

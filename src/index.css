@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+:root {
+  --mainColor: #FF8D4D;
+  --GrayColor: #262626;
+  --questionsBG: #FFEFE5;
+  --TitelsColor: #1A1A1A;
+  --textsColor: #333333;
+  --iconBackground: #FFDECC;
+  --BackgroundColor: #FFF5F0;
+  --shadowColor: #FFBE99;
+}
+
+body {
+  background-color: var(--BackgroundColor);
+  font-family: "Outfit", sans-serif;
+  color:var(--textsColor);
+}
+
+h1,
+h2{
+  font-family: "Raleway", sans-serif;
+  color: var(--TitelsColor);
+}
+
+h3,h4{
+  color:var(--textsColor);
+}
+
+.container {
+  padding: 0 5.5vw;
+  margin: 0 auto;
+}
+
+.section {
+  padding-bottom: 14.7vh;
+}

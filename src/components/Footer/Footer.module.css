@@ -1,0 +1,127 @@
+.footer {
+    background-color: white;
+    border: 2px solid var(--GrayColor);
+    box-shadow: 6px 6px 0px 2px #1E1E1E;
+    border-radius: 12px;
+    padding: 5.5vw 5.5vw 4vh;
+    margin: 0 3.5vw 2.7vh;
+}
+
+.footerContent {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 5.5vw;
+    margin-bottom: 4vh;
+}
+
+.footerDesc {
+    margin-bottom: 40px;
+    margin-top: 16px;
+    max-width: 393px;
+}
+
+.email,
+.phone,
+.location {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 8px;
+    margin-bottom: 20px;
+
+}
+
+.contentIcon {
+    font-size: 32px;
+    padding: 6px;
+    border: 2px solid var(--GrayColor);
+    border-radius: 4px;
+    background-color: var(--BackgroundColor);
+}
+
+.sectionsList {
+    display: flex;
+    align-items: start;
+    gap: 30px;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    margin-top: 20px;
+}
+
+.footerPolicy {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid var(--GrayColor);
+    border-left: none;
+    border-right: none;
+    padding: 20px 0px;
+    margin-bottom: 2vh;
+    ;
+}
+
+.policyList {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.policyItem:not(:last-child) {
+    padding-right: 10px;
+    border-right: 2px solid var(--GrayColor);
+}
+
+.socialContainer {
+    display: flex;
+    gap: 14px;
+}
+
+.socialIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    padding: 14px;
+    border: 2px solid var(--GrayColor);
+    border-radius: 6px;
+    background-color: var(--iconBackground);
+}
+
+.copyRight {
+    text-align: center;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+@media screen and (max-width : 992px) {
+    .footerHead {
+        width: fit-content;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .footerContent {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sectionsList {
+        flex-wrap: wrap;
+    }
+
+    .footerPolicy {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .policyItem {
+        font-size: 14px;
+    }
+}

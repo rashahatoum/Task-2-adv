@@ -1,0 +1,43 @@
+.BenefitsCards{
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+}
+.BenefitsCard{
+    border: 2px solid var(--GrayColor);
+    border-radius: 10px;
+    box-shadow: 4px 4px 0px 2px #1E1E1E;
+    background-color: white;
+    padding-bottom: 60px;
+    padding: 40px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+
+.CardIcon{
+width:56px;
+height: 56px;
+background-color: var(--iconBackground);
+border: 2px solid black;
+border-radius: 8px;
+display: flex;
+align-items: center;
+justify-content: center;
+position: absolute;
+top:-30px;
+}
+.icon{
+width:24px;
+}
+
+.CardT{
+    padding-bottom: 16px;
+}
+
+@media screen and (max-width : 992px) {
+    .BenefitsCards{
+        grid-template-columns: repeat(auto-fit, minmax(250px, 504px));
+    }
+}
