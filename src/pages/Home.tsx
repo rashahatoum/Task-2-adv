@@ -18,32 +18,32 @@ const Home = () => {
           <BenefitsSection
             BenefitsCards={[
               {
-                icon: "/assets/imgs/Graduated.png",
+                icon: "/Task-2-adv/assets/imgs/Graduated.png",
                 title: "Holistic Learning Approach",
                 desc: "Our curriculum focuses on nurturing cognitive, social, emotional, and physical development, ensuring a well-rounded education."
               },
               {
-                icon: "/assets/imgs/crown.png",
+                icon: "/Task-2-adv/assets/imgs/crown.png",
                 title: "Experienced Educators",
                 desc: "Our passionate and qualified teachers create a supportive and stimulating learning environment."
               },
               {
-                icon: "/assets/imgs/facemask.png",
+                icon: "/Task-2-adv/assets/imgs/facemask.png",
                 title: "Nurturing Environment",
                 desc: "We prioritize safety and provide a warm and caring atmosphere for every child."
               },
               {
-                icon: "/assets/imgs/flag.png",
+                icon: "/Task-2-adv/assets/imgs/flag.png",
                 title: "Play-Based Learning",
                 desc: "We believe in the power of play to foster creativity, problem-solving skills, and imagination."
               },
               {
-                icon: "/assets/imgs/ball.png",
+                icon: "/Task-2-adv/assets/imgs/ball.png",
                 title: "Individualized Attention",
                 desc: "Our small class sizes enable personalized attention, catering to each child's unique needs."
               },
               {
-                icon: "/assets/imgs/people.png",
+                icon: "/Task-2-adv/assets/imgs/people.png",
                 title: "Parent Involvement",
                 desc: "We foster a strong parent-school partnership to ensure seamless communication and collaboration."
               }
@@ -55,31 +55,31 @@ const Home = () => {
           <TestimonialsSection
             TestimonialsCards={[
               {
-                img: "/assets/imgs/Jennifer.png",
+                img: "/Task-2-adv/assets/imgs/Jennifer.png",
                 name: "Jennifer B",
                 rating: 5,
                 desc: "Little Learners Academy has been a second home for my child. The caring staff and engaging programs have made her excited to go to school every day!"
               },
               {
-                img: "/assets/imgs/David.png",
+                img: "/Task-2-adv/assets/imgs/David.png",
                 name: "David K",
                 rating: 5,
                 desc: "Choosing Little Learners Academy for my daughter was the best decision. She has thrived in their nurturing and stimulating environment."
               },
               {
-                img: "/assets/imgs/Emily.png",
+                img: "/Task-2-adv/assets/imgs/Emily.png",
                 name: "Emily L",
                 rating: 5,
                 desc: "My son's social and academic growth has been remarkable since joining Little Learners Academy. I am grateful for the supportive and dedicated teachers."
               },
               {
-                img: "/assets/imgs/Jennifer.png",
+                img: "/Task-2-adv/assets/imgs/Jennifer.png",
                 name: "Rasha H",
                 rating: 4,
                 desc: "Great academy and a very positive experience for my child, but I wish there was a bit more focus on some outdoor activities. Overall, I’m happy with the progress I see in him every day."
               },
               {
-                img: "/assets/imgs/David.png",
+                img: "/Task-2-adv/assets/imgs/David.png",
                 name: "Omar H",
                 rating: 3,
                 desc: "The place is nice and the staff are helpful, but I think there’s room for improvement in terms of activity variety and communication with parents. My child benefited, but not as much as I had hoped."
@@ -151,7 +151,7 @@ const Home = () => {
         </div>
       </section>
       <Footer 
-      logo="/assets/imgs/Logo.png"
+      logo="/Task-2-adv/assets/imgs/Logo.png"
       footerDesc="We believe in the power of play to foster creativity, problem-solving skills, and imagination."
       email="hello@littlelearners.com"
       phone="+91 91813 23 2309"

@@ -83,7 +83,8 @@
 }
 
     .heroImg {
-        width: clamp(275px, 85%, 615px);
+        width: 100%;
+        max-width: 615px;
     }
 
     .heroCards {

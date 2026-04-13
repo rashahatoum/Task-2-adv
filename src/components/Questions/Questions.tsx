@@ -33,8 +33,7 @@ const Questions = ({ questions }: questionsProps) => {
             <div className={styles.freqCards}>
                 {questions.map((question, index) => {
                     return (
-                        <div className={`${styles.freqCard} ${openIndex === index ? styles.opened : ""}`} key={index}>
-                            <div className={styles.asked} onClick={() => toggleOpen(index)}>
+                        <div className={`${styles.freqCard} ${openIndex === index ? styles.opened : ""}`} key={index}>                            <div className={styles.asked} onClick={() => toggleOpen(index)}>
                                 <p className={styles.question}>{question.question}</p>
                                 <div className={styles.askedIcon}>
                                     {openIndex === index ? (
@@ -45,7 +44,7 @@ const Questions = ({ questions }: questionsProps) => {
                                 </div>
                             </div>
                             {openIndex === index && <p className={styles.answer}>{question.answer}</p>}
-                        </div>
+                            </div>
                     )
                 })}
             </div>

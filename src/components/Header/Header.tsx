@@ -6,11 +6,11 @@ const Header = () => {
         <>
             <NavBar
                 bannerText="Admission is Open, Grab your seat now"
-                logo="/assets/imgs/Logo.png"
+                logo="/Task-2-adv/assets/imgs/Logo.png"
                 items={["Home", "About Us", "Academics", "Admissions", "Student Life", "Contact"]}
             />
             <Hero 
-            heroImg="/assets/imgs/Hero-image.png"
+            heroImg="/Task-2-adv/assets/imgs/Hero-image.png"
             subTitle="Welcome to Little Learners Academy"
             title="Where Young Minds Blossom and "
             titleSpan="Dreams Take Flight."

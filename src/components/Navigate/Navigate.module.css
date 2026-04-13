@@ -73,6 +73,7 @@
 @media screen and (max-width : 992px) {
     .pageCards{
         grid-template-columns: repeat(auto-fit, minmax(250px, 773px));
+        justify-content: center;
     }
 
     .line{
